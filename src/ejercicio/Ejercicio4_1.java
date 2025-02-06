@@ -4,9 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Ejercicio4_1 {
-public static void main(String[] args) {
-	System.out.println(contarFrecuenciaPalabras(" "));
-}
+
 	// Método para contar el número de palabras en una cadena
 	public static int contarPalabras(String str) {
 		if (str == null || str.isEmpty()) {
