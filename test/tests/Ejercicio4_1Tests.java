@@ -86,7 +86,7 @@ class Ejercicio4_1Tests {
 	@Test
 	void testEsPalindroma() {
 		assertFalse(esPalindroma("papa".trim()));
-	}
+	} 
 	@Test
 	void testNoEsPalindroma() {
 		assertFalse(esPalindroma("papa"));
